@@ -1,0 +1,30 @@
+h1.main-header {
+    text-align: center;
+    margin-top: 50px;
+
+    color: rgb(9, 245, 233);
+
+    font-family: 'Franklin Gothic Medium';
+}
+
+body {
+    background-image: url(images/starrygif.gif);
+    background-size: tile;
+}
+
+
+p.description {
+    text-align: center;
+    color: rgb(9, 245, 233);
+    margin-top: auto;
+    font-size: x-large;
+}
+
+img.logo {
+    display: block;
+    margin: auto;
+    margin-top: 100
+    px;
+
+    width: 150px;
+}
