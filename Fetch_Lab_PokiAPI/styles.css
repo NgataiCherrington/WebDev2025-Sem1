@@ -1,0 +1,19 @@
+img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+}
+
+h2.main-heading {
+    text-align: center;
+    font-family: monospace;
+    color: yellowgreen;
+}
+
+body {
+    text-align: center;
+}
+
+section#section {
+    text-align: left;
+}
