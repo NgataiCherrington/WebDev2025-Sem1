@@ -12,11 +12,9 @@ function pokemonData(data) {
     for (let i = 0; i < 10; i++) {
         const myPokemon = `
         <h3>Name: ${data.results[i].name}</h3>
-        <a href="${data.results.url}" targe="_blank">${data.results[i].url}</a>
+        <a href="${data.results[i].url}" targe="_blank">Click this link</a>
         `
         pokemonContainer.innerHTML += myPokemon;
-        // for (pokemon of data.results) {
-        // }
     }
 }
 
