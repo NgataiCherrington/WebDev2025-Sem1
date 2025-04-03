@@ -17,3 +17,7 @@ body {
 section#section {
     text-align: left;
 }
+
+section > h3 {
+    text-transform: capitalize;
+}
