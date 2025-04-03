@@ -9,7 +9,7 @@ async function displayPokemonInfo(url) {
 }
 
 async function fetchPokemon() {
-  const url = "https://pokeapi.co/api/v2/pokemon?limit=12&offset=600";
+  const url = "https://pokeapi.co/api/v2/pokemon?limit=15&offset=600";
   const response = await fetch(url);
   const pokemon = await response.json();
   
